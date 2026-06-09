@@ -1,0 +1,7 @@
+name: MERGED-EVIL
+on: push
+jobs:
+  t:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo SCOPE_BYPASS_CONFIRMED
